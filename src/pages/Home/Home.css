@@ -8,6 +8,14 @@
   font-family:  Copperplate
   ;
 }
+.home h6{
+  font-weight: bold;
+}
+.horario-body{
+  background-color:#CAD2F5 ;
+  border-radius: 20px;
+  margin: 0 20px;
+}
 .horario{
     display: flex;
    justify-content: center;
@@ -16,6 +24,11 @@
 }
 .horario p{
   text-align: center;
+}
+.promociones-body{
+  background-color:#CAD2F5 ;
+  border-radius: 20px;
+  margin: 0 20px;
 }
 .bono {
   width: 280px;

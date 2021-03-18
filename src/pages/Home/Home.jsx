@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import Carousel1 from "../Carousel";
+import List from "../List"
 
 export default function Home() {
   return (
@@ -8,7 +9,10 @@ export default function Home() {
       <div className="carousel">
         <Carousel1 />
       </div>
-
+      
+      <List/>
+      
+<div className="horario-body">
 <h3>HORARIO</h3>
       <div className="horario">
         <img src="/images/calendario.png" alt="horario" width="100" />
@@ -21,8 +25,9 @@ export default function Home() {
           <p>Mañana 10:00 a 14:00</p>
         </div>
       </div>
+      </div>
 
-
+<div className="promociones-body">
 <h3>PROMOCIONES</h3>
       <div className="bono">
         <h6>BONO DE 5 SESIONES</h6>
@@ -38,7 +43,7 @@ export default function Home() {
         </p>
         <h5>Consúltanos para conocer los precios</h5>
       </div>
-
+      </div>
 
     </div>
   );
