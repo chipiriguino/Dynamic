@@ -11,7 +11,7 @@ class App extends Component {
     return (
       <div>
         <BrowserRouter>
-        <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+        <Navbar collapseOnSelect expand="lg" className="nav-bg" variant="light">
   <Navbar.Brand href="/">DYNAMIC </Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
@@ -39,7 +39,7 @@ class App extends Component {
           <Route exact path="/about" component={About}/>
           <Route exact path="/contact" component={Contact}/>
         </Switch>
-        <footer>DYNAMIC</footer>
+        <footer>CLINICA DYNAMIC</footer>
         </BrowserRouter>
       </div>
     );

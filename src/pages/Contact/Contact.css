@@ -1,0 +1,18 @@
+.contacto h3{
+    display: flex;
+    justify-content: center;
+    background-color:#B0BDF3;
+    font-family: cursive;
+    padding: 20px 0;
+}
+
+.contacto div{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.contacto h5{
+    text-align: center;
+}

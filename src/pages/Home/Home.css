@@ -1,3 +1,46 @@
 .carousel{
     margin-top: 20px;
 }
+.home h3{
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+  font-family:  Copperplate
+  ;
+}
+.horario{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.horario p{
+  text-align: center;
+}
+.bono {
+  width: 280px;
+  height: 30px;
+  border-top: 40px solid #B0BDF3;
+  border-bottom: 40px solid #B0BDF3;
+  border-right: 35px solid transparent;
+}
+.bono h6{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 70px;
+}
+.bono-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.bono-text h5{
+  font-family: cursive;
+}
+.bono-text p{
+  font-size: 10px;
+  text-align: center;
+}
