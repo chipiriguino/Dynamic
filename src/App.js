@@ -7,6 +7,7 @@ import Calambre from "./pages/Calambre.jsx";
 import Rodilla from "./pages/Rodilla.jsx";
 import Rfibrilar from "./pages/Rfibrilar.jsx";
 import Rfrancis from "./pages/Rfrancis.jsx";
+import Wasap from "./pages/Wasap.jsx";
 import { Navbar,Nav,NavDropdown } from 'react-bootstrap';
 import './App.css'
 
@@ -39,8 +40,9 @@ class App extends Component {
           <Route exact path="/rodilla" component={Rodilla}/>
           <Route exact path="/rfibrilar" component={Rfibrilar}/>
           <Route exact path="/rincondefrancis" component={Rfrancis}/>
+          <Route exact path="/w" component={Wasap}/>
         </Switch>
-        <footer>CLINICA DYNAMIC</footer>
+        <footer>CLINICA DYNAMIC  <Wasap/></footer>
         </BrowserRouter>
       </div>
     );
