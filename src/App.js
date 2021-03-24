@@ -7,6 +7,7 @@ import Calambre from "./pages/Calambre.jsx";
 import Rodilla from "./pages/Rodilla.jsx";
 import Rfibrilar from "./pages/Rfibrilar.jsx";
 import Rfrancis from "./pages/Rfrancis.jsx";
+import Artritis from "./pages/Artritis.jsx";
 import Wasap from "./pages/Wasap.jsx";
 import { Navbar,Nav,NavDropdown } from 'react-bootstrap';
 import './App.css'
@@ -24,6 +25,7 @@ class App extends Component {
       <Nav.Link href="/contact">Contacto</Nav.Link>
       <Nav.Link href="/about">Sobre nosotros</Nav.Link>
       <NavDropdown title="Tratamientos"  id="collasible-nav-dropdown">
+      <NavDropdown.Item  href="/artritis">Atritis y artrosis</NavDropdown.Item>
         <NavDropdown.Item  href="/rodilla">Rodilla</NavDropdown.Item>
         <NavDropdown.Item href="/calambre">Rampas o calambres</NavDropdown.Item>
         <NavDropdown.Item href="/rfibrilar">Rotura fibrilar</NavDropdown.Item>
@@ -40,9 +42,10 @@ class App extends Component {
           <Route exact path="/rodilla" component={Rodilla}/>
           <Route exact path="/rfibrilar" component={Rfibrilar}/>
           <Route exact path="/rincondefrancis" component={Rfrancis}/>
+          <Route exact path="/artritis" component={Artritis}/>
           <Route exact path="/w" component={Wasap}/>
         </Switch>
-        <footer>CLINICA DYNAMIC  <Wasap/></footer>
+        <footer><p>CLINICA DYNAMIC </p> <Wasap className="wasap"/></footer>
         </BrowserRouter>
       </div>
     );

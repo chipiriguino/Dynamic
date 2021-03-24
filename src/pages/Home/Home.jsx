@@ -1,17 +1,21 @@
 import React from "react";
 import "./Home.css";
-import Carousel1 from "../Carousel";
+// import Carousel1 from "../Carousel";
 import List from "../List"
 
 export default function Home() {
   return (
     <div className="home">
-      <div className="carousel">
+      {/* <div className="carousel">
         <Carousel1 />
+      </div> */}
+      <div className="align-query-home">
+      <div>
+        <img className="logo-home" src="/images/dynamic.png" alt="logo" width="100%"/>
       </div>
       
       <List/>
-      
+      </div>
 <div className="horario-body">
 <h3>HORARIO</h3>
       <div className="horario">
