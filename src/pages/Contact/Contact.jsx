@@ -28,6 +28,8 @@ export default function Contact() {
                         <a href="https://www.instagram.com/clinicadynamic/"><h5>@CLYNICADYNAMIC</h5></a>
                     </div>
                 </ul>
+                <p className="hidden">También pudes contactarnos a través del botón de WhatsApp que puedes encontrar bajo a la derecha.<br></br>
+                No dudes en informarte o preguntar cualquier duda.<br></br>Estamos deseando conocerte</p>
             </div>
         </div>
     )

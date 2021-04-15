@@ -16,3 +16,34 @@ align-items: center;
 .contacto h5{
     text-align: center;
 }
+.hidden{
+    font-size: 19px;
+    text-align: center;
+}
+
+
+
+@media screen and (min-width: 700px) {
+    .contacto ul{
+        display: flex;
+        flex-direction: row; 
+    }
+    .contacto ul div{
+       padding:60px;
+    }
+    .contacto ul img{
+        width: 240px;
+     }
+     .contacto h5{
+        font-size: 20px;
+        margin-top: 15%;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+   
+.hidden{
+    display: none;
+}
+}
