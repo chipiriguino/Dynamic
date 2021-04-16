@@ -1,0 +1,39 @@
+@media screen and (min-width: 700px) {
+  .tratamiento-rfib img {
+    width: 47%;
+    margin-top: 2px;
+    padding: 30px;
+    margin-left: 30px;
+  }
+  .artritis img{
+    width: 47%;
+    margin-top: 2px;
+    padding: 30px;
+    margin-left: 30px;
+  }
+ 
+  .rodilla{
+      display: flex;
+      flex-direction: row;
+  }
+  .rodilla img{
+    width: 47%;
+    margin-top: 2px;
+    padding: 30px;
+    margin-left: 30px;
+  }
+  .rodilla-video{
+    margin-top: 2px;
+    padding: 30px;
+    margin-left: 30px; 
+    height: 80%;
+    width: 47%;
+  }
+  .calambre{
+      display: flex;
+      flex-direction: row;
+      width: 57%;
+      margin-top: 2px;
+    margin-left: 20%;
+  }
+}

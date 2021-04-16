@@ -57,3 +57,25 @@
   font-size: 10px;
   text-align: center;
 }
+.media-bono-align{
+  padding-bottom: 30px;
+}
+
+@media screen and (min-width: 700px) {
+  .horario-body{
+    width: 46%;
+  }
+  .horario p{
+    text-align: center;
+  }
+  .promociones-body{
+    width: 46%;
+  }
+  .bono {
+    width: 450px;
+   
+  }
+ .media-bono-align{
+   margin-top: -700px;
+ }
+}

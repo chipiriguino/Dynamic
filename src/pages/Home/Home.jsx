@@ -13,9 +13,11 @@ export default function Home() {
       <div>
         <img className="logo-home" src="/images/dynamic.png" alt="logo" width="100%"/>
       </div>
-      
-      <List/>
+      <div className="query-list-home">
+      <List />
       </div>
+      </div>
+      <div className="media-bono-align">
 <div className="horario-body">
 <h3>HORARIO</h3>
       <div className="horario">
@@ -48,7 +50,7 @@ export default function Home() {
         <h5>Consúltanos para conocer los precios</h5>
       </div>
       </div>
-
+      </div>
     </div>
   );
 }

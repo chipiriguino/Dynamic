@@ -49,7 +49,7 @@ export default function List() {
                     <h6>TERAPIA MANUAL</h6>
                 </div>
                 </div>
-                <div>
+                <div className="rayo-media">
                     <img className="cerebro" src="/images/rayo.png" alt="rayo" width="80"></img>
                     <h6>ELECTROTERAPIA</h6>
                 </div>

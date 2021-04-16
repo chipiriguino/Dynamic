@@ -201,10 +201,14 @@ footer {
 /* MEDIA QUERYS */
 @media screen and (min-width: 700px) {
     .logo-home{
-        width: 500px;
+        width: 700px;
     }
     .align-query-home{
         display: flex;
         flex-direction: row;
+    }
+    .query-list-home{
+       margin-left: 5%;
+       margin-top: -4%;
     }
 }
